@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container"> 
+    <div class="speaker">
+      <h1>Speaker Submission</h1>
+      <i>Want to speak at our fake conference? Fill out this form.</i>
+    </div>
+    <div class="form">
+    <form>
+      <div class="element">
+        <label for="name">Name</label>
+        <div class="field">
+          <input type="text" id="name"> 
+        </div>
+      </div>
+        <div class="element">
+          <label for="email">Email</label>
+          <div class="field">
+            <input type="email" id="email" placeholder="joe@example.com">
+          </div>
+       </div>
+      <div class="element">
+        <label>Type of Talk</label>
+        <div class="field">
+          <input type="radio" name="talk" id="radio1" value="name"><label for="radio1">Main Stage</label>
+          <input type="radio" name="talk" id="radio2" value="name"><label for="radio2">Workshop</label>
+         </div>
+      </div>
+      <div class="element">
+        <label for="dropdown">T-Shirt Size</label>
+        <div class="field">
+            <select id="dropdown">
+            <option value="option1">Extra Small</option>
+            <option value="option2">Small</option>
+            <option value="option3">Medium</option>
+            <option value="option4">Large</option>
+            </select>
+        </div>
+      </div>
+      <div class="element">
+            <label for="abstract">Abstract</label>
+            <div class="field">
+            <textarea value="abstract" id="abstract" row="4" cols="20"></textarea>
+            <p>Describe your talk in 500 words or less</p>     
+            <label for="agree"><input type="checkbox" name="agree" id="agree"> I have read the terms & conditions.</label>
+            <div>
+                <button class="btn" type="submit">Submit</button>
+            </div>
+            <br>
+        </div>       
+     </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
